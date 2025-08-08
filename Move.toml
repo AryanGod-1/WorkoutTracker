@@ -1,0 +1,15 @@
+[package]
+name = "alpha"
+version = "1.0.0"
+authors = []
+
+[addresses]
+alpha="0x70b199267a1076d3e4702ce3f72f69ebab3877e55d3d3baa7808002e0e632e76"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
